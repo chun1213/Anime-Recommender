@@ -40,7 +40,7 @@ It also recommended some general popular teen anime such as: <br />
   - Tokyo Ghoul: https://myanimelist.net/anime/22319 <br />
 <br />
 <b> Second Test: </b>
-The second set of anime I input involved action, adventure and fantasy:
+The second set of anime I input involved action, adventure and fantasy: <br />
   - Tokyo Ghoul (22319) <br />
   - Re Zero (31240) <br />
   - Konosuba (30831) <br />
