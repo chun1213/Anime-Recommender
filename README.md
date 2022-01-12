@@ -11,11 +11,12 @@ You can simply follow along the train_bert notebook included in this repo to use
 https://drive.google.com/drive/folders/1moBHlNl0zJYJZw5OhGqyd2-hbZxa1vz0?usp=sharing
 
 <h1> Tech Used: </h1>
-All the libraries used in this engine are also requirements of the BERT4REC 
+This project uses this version of BERT4REC to train the Engine along with some modifications: https://github.com/FeiSun/BERT4Rec <br />
+All the libraries used in this engine are also requirements of the BERT4REC. 
 
 <h1> Data </h1>
 
-The dataset I pickeled above came from this: https://www.kaggle.com/azathoth42/myanimelist
+The dataset I pickeled above came from this: https://www.kaggle.com/azathoth42/myanimelist <br />
 This was one of the cleanest MAl datasets I could find at the time so I used this. I then converted it to a valid file for BERT4REC to process using convert.py in this repo.
 The pickleing is done inside BERT4REC
 
@@ -40,11 +41,11 @@ It also recommended some general popular teen anime such as: <br />
   - Tokyo Ghoul: https://myanimelist.net/anime/22319 <br />
 <br />
 <b> Second Test: </b>
-The second set of anime I input involved action, adventure and fantasy:
-  - Tokyo Ghoul (22319)
-  - Re Zero (31240)
-  - Konosuba (30831)
-  - No Game No Life (19815)
+The second set of anime I input involved action, adventure and fantasy: <br />
+  - Tokyo Ghoul (22319) <br />
+  - Re Zero (31240) <br />
+  - Konosuba (30831) <br />
+  - No Game No Life (19815) <br />
 <img src="https://github.com/chun1213/Anime-Recommender/blob/main/images/Screenshot_2.png" width="300" />
 This time, the engine impressively recommended a direct sequel, (Konosuba Season 2): <br />
   - KonoSuba: God's Blessing on This Wonderful World! 2: https://myanimelist.net/anime/32937 <br />
@@ -64,5 +65,6 @@ It also recommended some general popular teen anime such as: <br />
 <h1> Limitations </h1>
 
 With the project explained, I need to get to the limitations of the engine. The main issue is that the dataset I used is dated and does not actually include ratings for many popular anime these days. It also strangely does not include user ratings for some older anime aswell. For example, the dataset does not have any ratings for Sword Art Online 1 but does have ratings for Sword Art Online 2. For this reason, if the user inputs an unreconized anime into the predictions, the engine will simply ignore the users request. In addition, the Engine will also never recommend an anime not in this dataset. The engine would have to be trained on a much larger and more recent dataset for this to work.
+<br />
 <br />
 The second main issue right now is the inability to easily enter in anime to be predicted on, The user must manually go to MAL and find the ID for the anime before feeding it into the engine. If I could write a program to take a user's anime list from MAL and use that as input, it would be much more convenient.
