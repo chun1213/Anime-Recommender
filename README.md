@@ -65,4 +65,5 @@ It also recommended some general popular teen anime such as: <br />
 
 With the project explained, I need to get to the limitations of the engine. The main issue is that the dataset I used is dated and does not actually include ratings for many popular anime these days. It also strangely does not include user ratings for some older anime aswell. For example, the dataset does not have any ratings for Sword Art Online 1 but does have ratings for Sword Art Online 2. For this reason, if the user inputs an unreconized anime into the predictions, the engine will simply ignore the users request. In addition, the Engine will also never recommend an anime not in this dataset. The engine would have to be trained on a much larger and more recent dataset for this to work.
 <br />
+<br />
 The second main issue right now is the inability to easily enter in anime to be predicted on, The user must manually go to MAL and find the ID for the anime before feeding it into the engine. If I could write a program to take a user's anime list from MAL and use that as input, it would be much more convenient.
