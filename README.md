@@ -1,7 +1,14 @@
 <h1 align="center"> Anime Recommendation Engine </h1>
+<p align="center"> 
+ <img src="https://github.com/chun1213/Anime-Recommender/blob/main/images/mal.png" width="300" />
+</p>
+ Sometimes after watching a good show or movie, you will want to get recommendations for what you want next, this is a very common feature on most streaming services. However, since anime cannot often be found all on one service, most people will decide there next anime based on word of mouth or what they see online. The closest thing that tries to encompass all anime is myanimelist, which has a page for almost every anime ever created alongside ratings. Think of it as the imdb of anime. Myanimelist (MAL) also has a feature which allows users to keep records of all their watched anime in one place alongside their rating. Even with this information about the user, I found that MAL does not give meaningfull suggestions for new anime to the user based on their list. Seeing this, I decided to work on a recommendation engine using MAL data.
 
-Sometimes after watching a good show or movie, you will want to get recommendations for what you want next, this is a very common feature on most streaming services. However, since anime cannot often be found all on one service, most people will decide there next anime based on word of mouth or what they see online. The closest thing that tries to encompass all anime is myanimelist, which has a page for almost every anime ever created alongside ratings. Think of it as the imdb of anime. Myanimelist (MAL) also has a feature which allows users to keep records of all their watched anime in one place alongside their rating. Even with this information about the user, I found that MAL does not give meaningfull suggestions for new anime to the user based on their list. Seeing this, I decided to work on a recommendation engine using MAL data.
+MAL gives each anime its own unique numerical ID number, this id can easily be found by searching an anime on MAL and looking at the URL of the anime's page: <br />
+<img src="https://github.com/chun1213/Anime-Recommender/blob/main/images/animeid.png" width="300" />
+Here, the ID for One Piece is 21.<br /> 
 
+I will be using these IDs as input and output for this engine to represent their respective animes.
 
 <h1> Recommendation Engine Use: </h1>
 
@@ -17,7 +24,8 @@ All the libraries used in this engine are also requirements of the BERT4REC.
 <h1> Data </h1>
 
 The dataset I pickeled above came from this: https://www.kaggle.com/azathoth42/myanimelist <br />
-This was one of the cleanest MAl datasets I could find at the time so I used this. I then converted it to a valid file for BERT4REC to process using convert.py in this repo.
+This was one of the cleanest MAl datasets I could find at the time so I used this. It includes information about many users anime history, namely there ratings of anime and when they watched it. <br />
+I then converted the dataset to a valid ratings file for BERT4REC to process using convert.py in this repo. <br />
 The pickleing is done inside BERT4REC
 
 <h1> Testing </h1>
