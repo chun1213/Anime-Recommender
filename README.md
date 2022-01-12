@@ -41,10 +41,10 @@ It also recommended some general popular teen anime such as: <br />
 <br />
 <b> Second Test: </b>
 The second set of anime I input involved action, adventure and fantasy:
-  - Tokyo Ghoul (22319)
-  - Re Zero (31240)
-  - Konosuba (30831)
-  - No Game No Life (19815)
+  - Tokyo Ghoul (22319) <br />
+  - Re Zero (31240) <br />
+  - Konosuba (30831) <br />
+  - No Game No Life (19815) <br />
 <img src="https://github.com/chun1213/Anime-Recommender/blob/main/images/Screenshot_2.png" width="300" />
 This time, the engine impressively recommended a direct sequel, (Konosuba Season 2): <br />
   - KonoSuba: God's Blessing on This Wonderful World! 2: https://myanimelist.net/anime/32937 <br />
