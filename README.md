@@ -16,7 +16,7 @@ All the libraries used in this engine are also requirements of the BERT4REC.
 
 <h1> Data </h1>
 
-The dataset I pickeled above came from this: https://www.kaggle.com/azathoth42/myanimelist
+The dataset I pickeled above came from this: https://www.kaggle.com/azathoth42/myanimelist <br />
 This was one of the cleanest MAl datasets I could find at the time so I used this. I then converted it to a valid file for BERT4REC to process using convert.py in this repo.
 The pickleing is done inside BERT4REC
 
