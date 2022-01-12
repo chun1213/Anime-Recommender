@@ -37,16 +37,16 @@ The first set of anime I input involved slice of life, drama heavy teen anime su
   - Your Name <br />
   - A Silent Voice <br />
 <img src="https://github.com/chun1213/Anime-Recommender/blob/main/images/Screenshot_1.png" width="300" />
-Based on the tags of the recommended Anime, It recommended a lot of similar anime such as: <br /> 
+Based on the tags of the recommended Anime, It recommended a lot of similar anime such as: <br />
   - The Pet Girl of Sakurasou: https://myanimelist.net/anime/13759 <br />
   - Orange: https://myanimelist.net/anime/32729 <br />
   - The Garden of Words: https://myanimelist.net/anime/16782 <br />
   - When Marnie Was There: https://myanimelist.net/anime/21557 <br />
 <br />
 It also recommended some general popular teen anime such as: <br />
-  - Re zero: https://myanimelist.net/anime/31240 <br />
-  - One punch man: https://myanimelist.net/anime/30276 <br />
-  - Tokyo Ghoul: https://myanimelist.net/anime/22319 <br />
+ - Re zero: https://myanimelist.net/anime/31240 <br />
+ - One punch man: https://myanimelist.net/anime/30276 <br />
+ - Tokyo Ghoul: https://myanimelist.net/anime/22319 <br />
 <br />
 <b> Second Test: </b>
 The second set of anime I input involved action, adventure and fantasy: <br />
