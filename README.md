@@ -11,7 +11,8 @@ You can simply follow along the train_bert notebook included in this repo to use
 https://drive.google.com/drive/folders/1moBHlNl0zJYJZw5OhGqyd2-hbZxa1vz0?usp=sharing
 
 <h1> Tech Used: </h1>
-All the libraries used in this engine are also requirements of the BERT4REC 
+This project uses this version of BERT4REC to train the Engine along with some modifications: https://github.com/FeiSun/BERT4Rec
+All the libraries used in this engine are also requirements of the BERT4REC. 
 
 <h1> Data </h1>
 
